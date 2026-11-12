@@ -1,3 +1,9 @@
+//--------------- Seminarski 1 OOP2 ---------------
+// Marko Mrsevic RT-3/24
+// Marko Jakovljevic RT-6/24
+
+
+
 public class main {
     public static void main(String[] args) throws InterruptedException {
 
