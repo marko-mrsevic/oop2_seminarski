@@ -5,7 +5,7 @@ public class main {
 
         Proizvod[] proizvodi = {
             new Proizvod("Hljeb", 60.0),
-            new Proizvod("Mlijeko", 145.5),
+            new Proizvod("Mlijeko", 150.0),
             new Proizvod("Jaja", 22.0),
             new Proizvod("Sir", 480.0),
             new Proizvod("Jabuke", 130.0),

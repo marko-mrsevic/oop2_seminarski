@@ -17,8 +17,6 @@ public class Potrosac extends Thread {
         try (PrintWriter pw = new PrintWriter(new FileWriter("proizvodi.txt"))) {
             for (int i = 0; i < brojProizvoda; i++) {
                 Proizvod p = buffer.uzmi();
-                System.out.println("***** Potrosac preuzeo: " + p.getNaziv()
-                        + ", cijena: " + p.getCijena());
                 pw.println(p.getNaziv() + " " + p.getCijena());
             }
         } catch (IOException e) {

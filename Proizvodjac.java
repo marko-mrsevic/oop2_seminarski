@@ -11,8 +11,6 @@ public class Proizvodjac extends Thread {
     public void run() {
         for (int i = 0; i < proizvodi.length; i++) {
             buffer.dodaj(proizvodi[i]);
-            System.out.println("***** Proizvodjac ucitao: " + proizvodi[i].getNaziv()
-                + ", cijena: " + proizvodi[i].getCijena());
         }
     }
 }

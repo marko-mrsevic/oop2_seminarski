@@ -16,6 +16,8 @@ public class Buffer {
             }            
         }
         proizvodi.add(p);
+        System.out.println("***** Proizvodjac ucitao: " + p.getNaziv()
+                + ", cijena: " + p.getCijena());
         notifyAll();
     }
     public synchronized Proizvod uzmi() {
@@ -28,6 +30,8 @@ public class Buffer {
             }
         }
         Proizvod p = proizvodi.removeFirst();
+        System.out.println("***** Potrosac preuzeo: " + p.getNaziv()
+                        + ", cijena: " + p.getCijena());
         notifyAll();
         return p;
     }

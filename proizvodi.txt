@@ -1,0 +1,8 @@
+Hljeb 60.0
+Mlijeko 150.0
+Jaja 22.0
+Sir 480.0
+Jabuke 130.0
+Kafa 350.0
+Secer 120.0
+Ulje 260.0
