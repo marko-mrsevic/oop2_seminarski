@@ -11,7 +11,6 @@ public class Buffer {
             try {
                 wait();
             } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
                 e.printStackTrace();
             }            
         }
@@ -25,7 +24,6 @@ public class Buffer {
             try {
                 wait();
             } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
                 e.printStackTrace();
             }
         }
